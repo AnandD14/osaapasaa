@@ -1,0 +1,312 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:1:1-96:12
+	package
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:2:5-38
+		INJECTED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml
+		INJECTED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml
+		INJECTED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:1:11-69
+	android:versionCode
+		INJECTED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml
+		INJECTED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:3:5-67
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-gcm:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.3.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:3:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:4:5-79
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:4:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:5:5-76
+	android:name
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:5:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:6:5-68
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:6:22-65
+permission#com.lingme.anand.lingme.permission.C2D_MESSAGE
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:7:5-8:47
+	android:protectionLevel
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:8:9-44
+	android:name
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:7:17-78
+uses-permission#com.lingme.anand.lingme.permission.C2D_MESSAGE
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:9:5-86
+	android:name
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:9:22-83
+supports-screens
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:10:5-18:40
+	android:compatibleWidthLimitDp
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:17:5-41
+	android:largeScreens
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:13:5-32
+	android:smallScreens
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:11:5-32
+	android:normalScreens
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:12:5-33
+	android:requiresSmallestWidthDp
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:16:5-42
+	android:xlargeScreens
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:14:5-33
+	android:resizeable
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:10:23-48
+	android:anyDensity
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:15:5-30
+	android:largestWidthLimitDp
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:18:5-38
+application
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:19:5-94:19
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:26:5-46:19
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.0.0-beta1] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-beta1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.1] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:24.0.0-beta1] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-beta1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0-beta1] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-beta1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:cardview-v7:23.2.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:22.2.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.1] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:24.0.0-beta1] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-beta1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0-beta1] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-beta1/AndroidManifest.xml:25:5-20
+MERGED from [com.neno0o.lighttextview:lib:1.1] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.neno0o.lighttextview/lib/1.1/AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support:appcompat-v7:22.2.1] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:24.0.0-beta1] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-beta1/AndroidManifest.xml:25:5-20
+MERGED from [com.github.johnkil.android-robototextview:robototextview:2.4.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.github.johnkil.android-robototextview/robototextview/2.4.0/AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.1] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:24.0.0-beta1] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-beta1/AndroidManifest.xml:25:5-20
+MERGED from [com.github.medyo:fancybuttons:1.5] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.github.medyo/fancybuttons/1.5/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-gcm:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.3.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.0.0-beta1] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-beta1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:26:5-46:19
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.0.0-beta1] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-beta1/AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:19:45-77
+	android:allowBackup
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:19:18-44
+	android:icon
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:20:9-43
+	android:theme
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:20:44-75
+receiver#com.google.android.gms.gcm.GcmReceiver
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:21:9-29:20
+	android:exported
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:23:13-36
+	android:permission
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:24:13-73
+	android:name
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:22:13-66
+intent-filter#com.google.android.c2dm.intent.RECEIVE+com.lingme.anand.lingme
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:25:13-28:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:26:17-81
+	android:name
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:26:25-78
+category#com.lingme.anand.lingme
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:27:17-68
+	android:name
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:27:27-65
+service#com.lingme.anand.lingme.Activity.GCMPushServiceListener
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:30:9-36:19
+	android:exported
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:31:13-60
+intent-filter#com.google.android.c2dm.intent.RECEIVE
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:33:13-35:29
+service#com.lingme.anand.lingme.Activity.GCMRegistrationIntentService
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:37:9-43:19
+	android:exported
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:38:13-66
+intent-filter#com.google.android.gms.iid.InstanceID
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:40:13-42:29
+action#com.google.android.gms.iid.InstanceID
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:41:17-80
+	android:name
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:41:25-77
+meta-data#android.app.searchable
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:44:9-105
+	android:resource
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:44:58-92
+	android:name
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:44:20-57
+activity#com.lingme.anand.lingme.Activity.SplashActivity
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:45:9-56:20
+	android:screenOrientation
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:50:13-49
+	android:label
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:47:13-45
+	android:configChanges
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:49:13-48
+	android:theme
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:48:13-44
+	android:name
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:46:13-75
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:51:13-54:29
+action#android.intent.action.MAIN
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:52:17-68
+	android:name
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:52:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:53:17-77
+	android:name
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:53:27-74
+activity#com.lingme.anand.lingme.Activity.HomeActivity
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:57:9-66:20
+	android:screenOrientation
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:61:13-49
+	android:configChanges
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:60:13-48
+	android:theme
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:59:13-44
+	android:name
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:58:13-50
+intent-filter#android.intent.category.DEFAULT+com.lingme.anand.lingme.Activity.HomeActivity
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:62:13-65:29
+action#com.lingme.anand.lingme.Activity.HomeActivity
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:63:17-87
+	android:name
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:63:25-85
+category#android.intent.category.DEFAULT
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:64:17-76
+	android:name
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:64:27-73
+activity#com.lingme.anand.lingme.Activity.DetailsActivity
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:67:9-77:20
+	android:screenOrientation
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:71:13-49
+	android:configChanges
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:70:13-48
+	android:theme
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:68:13-53
+intent-filter#android.intent.category.DEFAULT+com.lingme.anand.lingme.Activity.DetailsActivity
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:72:13-75:29
+action#com.lingme.anand.lingme.Activity.DetailsActivity
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:73:17-90
+	android:name
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:73:25-88
+activity#com.lingme.anand.lingme.Activity.SearchActivity
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:78:9-88:20
+	android:screenOrientation
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:82:13-49
+	android:configChanges
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:81:13-48
+	android:theme
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:79:13-52
+intent-filter#android.intent.category.DEFAULT+com.lingme.anand.lingme.Activity.SearchActivity
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:83:13-86:29
+action#com.lingme.anand.lingme.Activity.SearchActivity
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:84:17-89
+	android:name
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:84:25-87
+receiver#com.lingme.anand.lingme.Activity.CheckConnectivity
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:89:9-93:20
+	android:name
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:89:19-61
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:90:13-92:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:91:17-79
+	android:name
+		ADDED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml:91:25-76
+uses-sdk
+INJECTED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.0.0-beta1] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-beta1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:appcompat-v7:22.2.1] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.0.0-beta1] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-beta1/AndroidManifest.xml:21:5-23:54
+MERGED from [me.relex:circleindicator:1.1.5] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/me.relex/circleindicator/1.1.5/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:recyclerview-v7:24.0.0-beta1] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.0.0-beta1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.0.0-beta1] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-beta1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:cardview-v7:23.2.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:22.2.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.1] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.0.0-beta1] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-beta1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.0.0-beta1] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-beta1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.neno0o.lighttextview:lib:1.1] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.neno0o.lighttextview/lib/1.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:22.2.1] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.0.0-beta1] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-beta1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.github.johnkil.android-robototextview:robototextview:2.4.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.github.johnkil.android-robototextview/robototextview/2.4.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:22.2.1] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.0.0-beta1] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-beta1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.github.medyo:fancybuttons:1.5] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.github.medyo/fancybuttons/1.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikepenz:actionitembadge:3.2.2] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.mikepenz/actionitembadge/3.2.2/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:iconics-core:2.5.8] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.mikepenz/iconics-core/2.5.8/AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.gms:play-services-gcm:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.0.0-beta1] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-beta1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.0.0-beta1] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-beta1/AndroidManifest.xml:21:5-23:54
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:24.0.0-beta1] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-beta1/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml
+		INJECTED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml
+		INJECTED from /home/adarshan/LingMe/app/src/main/AndroidManifest.xml
+provider#com.google.android.gms.measurement.AppMeasurementContentProvider
+ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:28:7-31:37
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:28:7-31:37
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:29:11-76
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:31:11-35
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:30:11-90
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:33:7-39:18
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:33:7-39:18
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:35:11-33
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:34:11-83
+intent-filter#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:36:9-38:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:37:11-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:37:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:41:7-44:37
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:41:7-44:37
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:43:11-33
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:44:11-35
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:42:11-82
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:22:13-58
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.3.0/AndroidManifest.xml:21:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:8.3.0] /home/adarshan/LingMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.3.0/AndroidManifest.xml:21:22-79

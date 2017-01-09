@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        <!--This is assuming you are going to use a listview, you can put anything here, just make sure to put the weight attribute into whatever you end up using-->
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_list_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            android:layout_weight="1"
+            />
+        <!--Bottom bar layout below-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2"
+            android:layout_weight="0"
+            android:background="#FFFFFF">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar_details"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                >
+            </android.support.v7.widget.Toolbar>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/adarshan/LingMe/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_shop_black_24dp.png",
+        "source": "/home/adarshan/LingMe/app/src/main/res/mipmap-xhdpi/ic_shop_black_24dp.png"
+    },
+    {
+        "merged": "/home/adarshan/LingMe/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_launcher.png",
+        "source": "/home/adarshan/LingMe/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/adarshan/LingMe/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_delete_black_24dp.png",
+        "source": "/home/adarshan/LingMe/app/src/main/res/mipmap-xhdpi/ic_delete_black_24dp.png"
+    },
+    {
+        "merged": "/home/adarshan/LingMe/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_favorite_black_24dp.png",
+        "source": "/home/adarshan/LingMe/app/src/main/res/mipmap-xhdpi/ic_favorite_black_24dp.png"
+    },
+    {
+        "merged": "/home/adarshan/LingMe/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_remove_shopping_cart_black_24dp.png",
+        "source": "/home/adarshan/LingMe/app/src/main/res/mipmap-xhdpi/ic_remove_shopping_cart_black_24dp.png"
+    }
+]

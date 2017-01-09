@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "228659949584",
+    "project_id": "osaapasaa-dd77f"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228659949584:android:c481f8abd0774d67",
+        "android_client_info": {
+          "package_name": "com.lingme.anand.lingme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACncKFfk7SGzFv3Yry6VzNq_-Fb8WiIxw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

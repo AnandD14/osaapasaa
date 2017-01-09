@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/new_in_store"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:padding="5dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:background="@color/White"/>
+
+        <RelativeLayout
+            android:id="@+id/rl"
+            android:layout_width="fill_parent"
+            android:layout_height="170dp"
+            android:layout_below="@+id/new_in_store">
+
+            <cn.trinea.android.view.autoscrollviewpager.AutoScrollViewPager
+                android:id="@+id/new_pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <me.relex.circleindicator.CircleIndicator
+                android:id="@+id/new_indicator"
+                android:layout_width="fill_parent"
+                android:layout_height="25dp"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="2dp" />
+        </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:id="@+id/popular_card_view"
+                android:layout_below="@+id/rl"
+                android:background="@color/White">
+        <TextView
+            android:id="@+id/popular_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:text=""
+            android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/popular_view_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:padding="5dp"
+                    android:text=""
+                    android:textColor="@color/SkyBlue"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_popular"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_below="@+id/popular_card_view"
+            android:background="@color/White"/>
+
+
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view_necklace"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/recycler_view_popular"
+            android:layout_margin="5dp">
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/offer_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:padding="8dp"
+                    android:text=""
+                    android:textColor="@android:color/black"/>
+                <com.android.volley.toolbox.NetworkImageView
+                    android:id="@+id/offer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/offer_textview"
+                    android:scaleType="fitXY" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/c"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/card_view_necklace"
+            android:layout_margin="5dp">
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/sale_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:padding="8dp"
+                    android:text=""
+                    android:textColor="@android:color/black"/>
+
+
+                <com.android.volley.toolbox.NetworkImageView
+                    android:id="@+id/sale"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:layout_below="@id/sale_textview"/>
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </RelativeLayout>
+</ScrollView>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:indeterminate="false"
+        android:visibility="invisible" />
+</RelativeLayout>

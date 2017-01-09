@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.lingme.anand.lingme.Activity.HomeActivity">
+
+    <item
+        android:id="@+id/new_in"
+        android:title="New In" />
+    <item
+        android:id="@+id/sales"
+        android:title="Sales" />
+
+
+    <item
+        android:id="@+id/men"
+        android:title="MEN"
+        android:visible="true">
+        <menu>
+            <item
+                android:id="@+id/cnj"
+                android:title="Coats and Jackets" />
+            <item
+                android:id="@+id/hns"
+                android:title="Hoodies and Sweatshirts" />
+            <item
+                android:id="@+id/jeans"
+                android:title="Jeans" />
+            <item
+                android:id="@+id/jumpers"
+                android:title="Jumpers" />
+            <item
+                android:id="@+id/shirts"
+                android:title="Shirts" />
+            <item
+                android:id="@+id/tnp"
+                android:title="T-shirt and Polos" />
+            <item
+                android:id="@+id/tnc"
+                android:title="Trousers and Chinos" />
+            <item
+                android:id="@+id/shoes"
+                android:title="Shoes" />
+            <item
+                android:id="@+id/uns"
+                android:title="Underwear and Shocks" />
+            <item
+                android:id="@+id/access"
+                android:title="Accessories" />
+        </menu>
+    </item>
+
+
+    <item
+        android:id="@+id/women"
+        android:title="WOMEN"
+        android:visible="true">
+
+        <menu>
+            <item
+                android:id="@+id/accesw"
+                android:title="Accessories" />
+            <item
+                android:id="@+id/bnp"
+                android:title="Bags and Purses" />
+            <item
+                android:id="@+id/cnjw"
+                android:title="Coats and Jackets" />
+            <item
+                android:id="@+id/dresses"
+                android:title="Dresses" />
+            <item
+                android:id="@+id/hnsw"
+                android:title="Hoodies and Sweatshirts" />
+            <item
+                android:id="@+id/jeansw"
+                android:title="Jeans" />
+            <item
+                android:id="@+id/lingerie"
+                android:title="Lingerie" />
+            <item
+                android:id="@+id/tnt"
+                android:title="Tops and T-shirts" />
+            <item
+                android:id="@+id/shorts"
+                android:title="Shorts" />
+            <item
+                android:id="@+id/tnl"
+                android:title="Trousers and Leggings" />
+            <item
+                android:id="@+id/skirt"
+                android:title="Skirts" />
+            <item
+                android:id="@+id/shoesw"
+                android:title="Shoes" />
+            <item
+                android:id="@+id/workwear"
+                android:title="Workwear" />
+        </menu>
+    </item>
+
+</menu>

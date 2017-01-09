@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:weightSum="100.0">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_collapseMode="pin"
+        style="@style/ToolBarStyle.Event">
+    </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:id="@+id/fragments"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/menu"
+        android:layout_below="@+id/toolbar">
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Menu"
+        android:id="@+id/menu"
+        android:textColor="#000000"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/select"
+        android:gravity="center"
+        android:padding="15dp"
+        />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Favourite"
+        android:id="@+id/fav"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:background="@drawable/select"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/menu"
+        android:layout_toEndOf="@+id/menu"
+        android:padding="15dp"
+        android:layout_weight="1"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Basket"
+        android:id="@+id/basket"
+        android:textColor="#000000"
+        android:background="@drawable/select"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/fav"
+        android:layout_toEndOf="@+id/fav"
+        android:padding="15dp"
+        android:layout_weight="1"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="A/C"
+        android:id="@+id/ac"
+        android:textColor="#000000"
+        android:background="@drawable/select"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/basket"
+        android:layout_toEndOf="@+id/basket"
+        android:padding="15dp"
+        android:layout_weight="1"/>
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/adarshan/LingMe/app/build/intermediates/res/merged/debug/menu/details_menu.xml",
+        "source": "/home/adarshan/LingMe/app/src/main/res/menu/details_menu.xml"
+    },
+    {
+        "merged": "/home/adarshan/LingMe/app/build/intermediates/res/merged/debug/menu/action_menu.xml",
+        "source": "/home/adarshan/LingMe/app/src/main/res/menu/action_menu.xml"
+    },
+    {
+        "merged": "/home/adarshan/LingMe/app/build/intermediates/res/merged/debug/menu/popup_menu.xml",
+        "source": "/home/adarshan/LingMe/app/src/main/res/menu/popup_menu.xml"
+    }
+]

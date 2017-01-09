@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "/home/adarshan/LingMe/app/build/intermediates/res/merged/debug/layout-xlarge-v4/list_product.xml",
+        "source": "/home/adarshan/LingMe/app/src/main/res/layout-xlarge/list_product.xml"
+    },
+    {
+        "merged": "/home/adarshan/LingMe/app/build/intermediates/res/merged/debug/layout-xlarge-v4/necklace_recyc.xml",
+        "source": "/home/adarshan/LingMe/app/src/main/res/layout-xlarge/necklace_recyc.xml"
+    },
+    {
+        "merged": "/home/adarshan/LingMe/app/build/intermediates/res/merged/debug/layout-xlarge-v4/fragment_home.xml",
+        "source": "/home/adarshan/LingMe/app/src/main/res/layout-xlarge/fragment_home.xml"
+    },
+    {
+        "merged": "/home/adarshan/LingMe/app/build/intermediates/res/merged/debug/layout-xlarge-v4/sale_recyc.xml",
+        "source": "/home/adarshan/LingMe/app/src/main/res/layout-xlarge/sale_recyc.xml"
+    },
+    {
+        "merged": "/home/adarshan/LingMe/app/build/intermediates/res/merged/debug/layout-xlarge-v4/login.xml",
+        "source": "/home/adarshan/LingMe/app/src/main/res/layout-xlarge/login.xml"
+    },
+    {
+        "merged": "/home/adarshan/LingMe/app/build/intermediates/res/merged/debug/layout-xlarge-v4/popular.xml",
+        "source": "/home/adarshan/LingMe/app/src/main/res/layout-xlarge/popular.xml"
+    },
+    {
+        "merged": "/home/adarshan/LingMe/app/build/intermediates/res/merged/debug/layout-xlarge-v4/home_pager.xml",
+        "source": "/home/adarshan/LingMe/app/src/main/res/layout-xlarge/home_pager.xml"
+    },
+    {
+        "merged": "/home/adarshan/LingMe/app/build/intermediates/res/merged/debug/layout-xlarge-v4/details.xml",
+        "source": "/home/adarshan/LingMe/app/src/main/res/layout-xlarge/details.xml"
+    },
+    {
+        "merged": "/home/adarshan/LingMe/app/build/intermediates/res/merged/debug/layout-xlarge-v4/fragment_signup.xml",
+        "source": "/home/adarshan/LingMe/app/src/main/res/layout-xlarge/fragment_signup.xml"
+    },
+    {
+        "merged": "/home/adarshan/LingMe/app/build/intermediates/res/merged/debug/layout-xlarge-v4/offer_recyc.xml",
+        "source": "/home/adarshan/LingMe/app/src/main/res/layout-xlarge/offer_recyc.xml"
+    },
+    {
+        "merged": "/home/adarshan/LingMe/app/build/intermediates/res/merged/debug/layout-xlarge-v4/home.xml",
+        "source": "/home/adarshan/LingMe/app/src/main/res/layout-xlarge/home.xml"
+    },
+    {
+        "merged": "/home/adarshan/LingMe/app/build/intermediates/res/merged/debug/layout-xlarge-v4/splash.xml",
+        "source": "/home/adarshan/LingMe/app/src/main/res/layout-xlarge/splash.xml"
+    },
+    {
+        "merged": "/home/adarshan/LingMe/app/build/intermediates/res/merged/debug/layout-xlarge-v4/fragment_connection.xml",
+        "source": "/home/adarshan/LingMe/app/src/main/res/layout-xlarge/fragment_connection.xml"
+    }
+]
